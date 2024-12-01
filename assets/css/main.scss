@@ -712,3 +712,23 @@ img {
         color: var(--footer_font_a);
     }
 }
+
+#repos-list {
+    margin-top: 20px;
+    padding: 10px;
+    list-style-type: none;
+  }
+  
+  #repos-list li {
+    margin-bottom: 10px;
+  }
+  
+  #repos-list a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  #repos-list a:hover {
+    text-decoration: underline;
+  }
+  

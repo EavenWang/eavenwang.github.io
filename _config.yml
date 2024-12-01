@@ -1,6 +1,6 @@
 
 title: Eaven Wang #Your awesome title
-email: #youremail@domain.com
+email: 212715685@qq.com #youremail@domain.com
 description: > # this means to ignore newlines until "baseurl"
   This is my blog
 
@@ -19,10 +19,10 @@ cusdis:
 
 user:
   name: Eaven Wang
-  pic: /assets/img/cat.jpg
-  picAlt: "catbook"
-  job: a category-centric theme
-  aboutme: true # comment this out if you don't need the 'about' page.
+  pic: /assets/img/Kikyo.png
+  picAlt: "Kikyo"
+  job: 
+  repositories: true
 
 exclude:
   - README.md
