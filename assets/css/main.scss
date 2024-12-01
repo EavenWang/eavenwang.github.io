@@ -79,31 +79,31 @@ html {
 
 html,
 html.light {
-    @include lightMode
+    @include lightMode;
 }
 
 html.dark {
-    @include darkMode
+    @include darkMode;
 }
 
 @media (prefers_color: light),
 (prefers_color: no-preference) {
     html {
-        @include lightMode
+        @include lightMode;
     }
 
     html.dark {
-        @include darkMode
+        @include darkMode;
     }
 }
 
 @media (prefers_color: dark) {
     html {
-        @include darkMode
+        @include darkMode;
     }
 
     html.light {
-        @include lightMode
+        @include lightMode;
     }
 }
 
@@ -713,22 +713,22 @@ img {
     }
 }
 
-#repos-list {
+.repos-list {
     margin-top: 20px;
     padding: 10px;
     list-style-type: none;
-  }
+}
   
-  #repos-list li {
+.repos-list li {
     margin-bottom: 10px;
-  }
+}
   
-  #repos-list a {
+.repos-list a {
     color: #0077cc;
     text-decoration: none;
-  }
-  
-  #repos-list a:hover {
+}
+
+.repos-list a:hover {
     text-decoration: underline;
-  }
+}
   
