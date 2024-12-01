@@ -3,31 +3,9 @@ title: Eaven Wang
 email: 212715685@qq.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is my blog
+  
 baseurl: "" # the subpath of your site, e.g. /blog
-<<<<<<< HEAD
-url: "https://eavenwang.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-=======
 url: "https://eavenwang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-
-user:
-  name: Eaven Wang
-  pic: /assets/img/Kikyo.png
-  picAlt: "Kikyo"
-
-exclude:
-  - README.md
-  - LICENSE
-  - github
-
-defaults:
-  - scope:
-      path: "_posts"
-      type: posts
-    values:
-      layout: post
-      comment: true  
-
->>>>>>> 8bd1c74e4f05da0a51d03a62c80500de5e2c57bf
 
 
 # Exclude from processing.
